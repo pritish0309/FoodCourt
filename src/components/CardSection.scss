@@ -1,0 +1,16 @@
+.card-section{
+    display: flex;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    .col{
+        width: 30%;
+        .card{
+            text-align: center;
+            svg{
+                font-size: 35px;
+            }
+        }
+    }
+}

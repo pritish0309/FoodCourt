@@ -1,0 +1,25 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        .navbar_logo{
+            margin-top: 15px;
+        }
+        ul{
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+            li{
+                list-style: none;
+            }
+            .theme-issues{
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+}

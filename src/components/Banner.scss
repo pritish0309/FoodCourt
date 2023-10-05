@@ -1,0 +1,16 @@
+.banner-container{
+    background: url('../../public/banner-image.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .banner-content{
+        text-align: center;
+    }
+}
+
+.changeColor{
+    background-color: #fff;
+}
